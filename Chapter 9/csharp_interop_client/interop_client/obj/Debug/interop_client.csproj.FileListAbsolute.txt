@@ -1,0 +1,22 @@
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\bin\Debug\interop_client.exe.config
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\bin\Debug\interop_client.exe
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\bin\Debug\interop_client.pdb
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\bin\Debug\BouncyCastle.Crypto.dll
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\obj\Debug\interop_client.harness.resources
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\obj\Debug\interop_client.Properties.Resources.resources
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\obj\Debug\interop_client.csproj.GenerateResource.Cache
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\obj\Debug\interop_client.exe
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\obj\Debug\interop_client.pdb
+C:\Development\WIRED Interop\Windows Client\interop_client\interop_client\obj\Debug\interop_client.csprojResolveAssemblyReference.cache
+C:\Development\reporting_test_client\interop_client\bin\Debug\interop_client.exe.config
+C:\Development\reporting_test_client\interop_client\bin\Debug\interop_client.exe
+C:\Development\reporting_test_client\interop_client\bin\Debug\interop_client.pdb
+C:\Development\reporting_test_client\interop_client\bin\Debug\BouncyCastle.Crypto.dll
+C:\Development\reporting_test_client\interop_client\bin\Debug\CookComputing.XmlRpcV2.dll
+C:\Development\reporting_test_client\interop_client\obj\Debug\interop_client.csprojResolveAssemblyReference.cache
+C:\Development\reporting_test_client\interop_client\obj\Debug\interop_client.harness.resources
+C:\Development\reporting_test_client\interop_client\obj\Debug\interop_client.Properties.Resources.resources
+C:\Development\reporting_test_client\interop_client\obj\Debug\interop_client.csproj.GenerateResource.Cache
+C:\Development\reporting_test_client\interop_client\obj\Debug\interop_client.exe
+C:\Development\reporting_test_client\interop_client\obj\Debug\interop_client.pdb

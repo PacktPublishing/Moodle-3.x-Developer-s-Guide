@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="course/format/location/db" VERSION="20130218" COMMENT="XMLDB file for Moodle course/format/gps"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="format_location_user" COMMENT="Geo location of user">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" SEQUENCE="true" NEXT="userid"/>
+        <FIELD NAME="userid" TYPE="int" LENGTH="20" NOTNULL="true" SEQUENCE="false" COMMENT="User ID" PREVIOUS="id" NEXT="latitude"/>
+        <FIELD NAME="latitude" TYPE="char" LENGTH="20" NOTNULL="true" SEQUENCE="false" COMMENT="latitude" PREVIOUS="userid" NEXT="longitude"/>
+        <FIELD NAME="longitude" TYPE="char" LENGTH="20" NOTNULL="true" SEQUENCE="false" PREVIOUS="latitude" NEXT="timemodified"/>
+        <FIELD NAME="timemodified" TYPE="int" LENGTH="10" NOTNULL="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="longitude"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+    </TABLE>
+  </TABLES>
+</XMLDB>

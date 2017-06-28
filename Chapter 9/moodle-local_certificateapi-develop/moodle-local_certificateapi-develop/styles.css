@@ -1,0 +1,21 @@
+#page-local-certificateapi-index #id_clientid {
+    display: block;
+}
+
+#page-local-certificateapi-edit_peer input#id_clientid {
+    display: block;
+}
+
+#page-local-certificateapi-edit_peer #id_public_key {
+    width: inherit;
+}
+
+#page-local-certificateapi-edit_peer textarea {
+	width: auto;
+	margin-top: 5px;
+}
+
+#page-local-certificateapi-key_pair textarea {
+    width: auto;
+    margin-top: 5px;
+}

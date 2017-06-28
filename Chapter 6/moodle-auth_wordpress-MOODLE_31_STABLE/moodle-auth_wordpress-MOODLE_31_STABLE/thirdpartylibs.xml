@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>BasicOAuth</location>
+    <name>OAuth</name>
+    <license>MIT</license>
+    <version>v1</version>
+    <licenseversion>1</licenseversion>
+  </library>
+  <library>
+    <location>OAuth</location>
+    <name>OAuth</name>
+    <license>CC0</license>
+    <version>v1</version>
+    <licenseversion>1</licenseversion>
+  </library>
+</libraries>

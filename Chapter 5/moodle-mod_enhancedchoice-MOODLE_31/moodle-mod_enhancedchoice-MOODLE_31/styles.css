@@ -1,0 +1,62 @@
+.path-mod-enhancedchoice .results {border-collapse: separate;}
+.path-mod-enhancedchoice .results .data {vertical-align:top;white-space: nowrap;}
+.path-mod-enhancedchoice .button {text-align:center;}
+.path-mod-enhancedchoice .attemptcell {width:5px;white-space: nowrap;}
+.path-mod-enhancedchoice .anonymous,
+.path-mod-enhancedchoice .names {margin-left:auto;margin-right:auto; width:80%;}
+.path-mod-enhancedchoice .downloadreport {border-width:0;margin-left:10%;}
+.path-mod-enhancedchoice .choiceresponse {width:100%;}
+.path-mod-enhancedchoice .choiceresponse .picture {width:10px;white-space: nowrap;}
+.path-mod-enhancedchoice .choiceresponse .fullname {width:100%;white-space: nowrap;}
+
+.path-mod-enhancedchoice .responseheader {width: 100%; text-align: center; margin-top: 10px;}
+.path-mod-enhancedchoice .choices .option label {vertical-align: top;}
+.path-mod-enhancedchoice .choices .option input {vertical-align: middle;}
+
+.path-mod-enhancedchoice .horizontal,
+.path-mod-enhancedchoice .vertical {margin-left: 2%;margin-right: 10%;}
+.path-mod-enhancedchoice .horizontal .choices .option {padding-right:20px;display:inline; white-space: normal; float: left}
+.path-mod-enhancedchoice .horizontal .choices p {padding-right:20px;display:inline; white-space: normal;}
+.path-mod-enhancedchoice .horizontal .choices .button {margin-top: 10px;}
+.path-mod-enhancedchoice ul.choices li {list-style:none;}
+.path-mod-enhancedchoice .results { text-align: center;}
+.path-mod-enhancedchoice .results.anonymous .graph.horizontal {vertical-align: middle;text-align: left;width:70%;}
+
+.path-mod-enhancedchoice .results.anonymous .graph.vertical,
+.path-mod-enhancedchoice .cell {vertical-align: bottom; text-align: center; }
+.path-mod-enhancedchoice .results.anonymous th.header {border: 1px solid inherit;}
+
+.path-mod-enhancedchoice .results.names .header{width:10%; white-space: normal;}
+.path-mod-enhancedchoice .results.names .cell{vertical-align: top; text-align: left;}
+.path-mod-enhancedchoice .results.names .user,
+.path-mod-enhancedchoice #yourselection {padding: 5px;}
+.path-mod-enhancedchoice .results.names .user .attemptaction,
+.path-mod-enhancedchoice .results.names .user .image,
+.path-mod-enhancedchoice .results.names .user .fullname{float:left;}
+.path-mod-enhancedchoice .results.names .user .fullname{padding-left: 5px;}
+.path-mod-enhancedchoice .results .data.header {width: 10%;}
+.path-mod-enhancedchoice .responseaction {text-align: center;}
+.path-mod-enhancedchoice .results .option {white-space: normal;}
+.path-mod-enhancedchoice .response {overflow: auto;}
+.path-mod-enhancedchoice .results .option,
+.path-mod-enhancedchoice .results .numberofuser,
+.path-mod-enhancedchoice .results .percentage {font-weight: bold; font-size: 108%;}
+
+#page-mod-enhancedchoice-report .downloadreport ul li {list-style:none;padding: 0 20px; display: inline;float: left; }
+.path-mod-enhancedchoice .clearfloat {float:none; clear:both;}
+
+/**
+ * Override for RTL layout
+ */
+.path-mod-enhancedchoice.dir-rtl .horizontal .choices .option {padding-right:0px; padding-left: 20px; float:right;}
+.path-mod-enhancedchoice.dir-rtl .results.anonymous .graph.horizontal {text-align: right;}
+.path-mod-enhancedchoice.dir-rtl .results.anonymous { text-align: center; }
+.path-mod-enhancedchoice.dir-rtl .results.names .cell{text-align: right;}
+.path-mod-enhancedchoice.dir-rtl .results.names .user .attemptaction,
+.path-mod-enhancedchoice.dir-rtl .results.names .user .image,
+.path-mod-enhancedchoice.dir-rtl .results.names .user .fullname,
+.path-mod-enhancedchoice.dir-rtl .results.names .user .fullname{padding-left: 0px; padding-right: 5px;}
+.path-mod-enhancedchoice.dir-rtl .downloadreport {margin-left:0;margin-right: 25%;}
+
+#page-mod-enhancedchoice-report.dir-rtl .downloadreport ul li{float:right;}
+#page-mod-enhancedchoice-view.dir-rtl .reportlink {text-align: left;}

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<libraries>
+  <library>
+    <location>thirdparty/three.js</location>
+    <name>Three.js</name>
+    <license>MIT</license>
+    <version>v1</version>
+    <licenseversion>1</licenseversion>
+  </library>
+</libraries>

@@ -1,0 +1,80 @@
+/* Login page
+-------------------------*/
+div.image-container {
+	background: url([[pix:theme|Zaatari_refugee_camp_Jordan]]) no-repeat 0 0;
+	background-size: cover;
+}
+
+body#page-login-index {
+	padding-top: 0px;
+}
+
+#page-login-index div#page-footer {
+	margin-top: 0em;
+}
+
+div.loginpanel {
+    background: url([[pix:theme|moodle-logo]]) no-repeat 70px 10px;
+    padding-top: 70px;
+}
+
+div.loginbox {
+	background-color: rgba(255,255,255,0.8);
+	width: 400px;
+	margin: 5% auto 20% auto;
+	-moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+/* Custom CSS
+-------------------------*/
+div.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.dir-rtl div.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+img.small-logo {
+    float: left;
+    height: 35px;
+    margin: 3px 10px 3px 0;
+}
+
+.dir-rtl img.small-logo {
+    float: right;
+    margin: 3px 0 3px 10px;
+}
+
+@media (max-width: 767px) {
+    .dir-rtl img.small-logo,
+    img.small-logo {
+        margin: 3px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar img.small-logo {
+        max-width: 150px;
+    }
+    /* Applying accesshide styles */
+    .navbar .small-logo-container + .brand {
+        position: absolute;
+        left: -10000px;
+        font-size: 1em;
+        font-weight: normal;
+    }
+}
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]

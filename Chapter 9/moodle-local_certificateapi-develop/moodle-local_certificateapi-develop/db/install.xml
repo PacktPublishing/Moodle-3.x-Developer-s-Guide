@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<XMLDB PATH="local/certificateapi/db" VERSION="20160718" COMMENT="XMLDB file for Moodle local/certificateapi"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../../../lib/xmldb/xmldb.xsd"
+>
+  <TABLES>
+    <TABLE NAME="certificateapi_host" COMMENT="certificateapi_host table contains client peers that can connect to us">
+      <FIELDS>
+        <FIELD NAME="id" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" SEQUENCE="true" NEXT="ip_address"/>
+        <FIELD NAME="ip_address" TYPE="char" LENGTH="45" NOTNULL="true" SEQUENCE="false" PREVIOUS="id" NEXT="wwwroot"/>
+        <FIELD NAME="wwwroot" TYPE="char" LENGTH="255" NOTNULL="true" SEQUENCE="false" PREVIOUS="ip_address" NEXT="fullname"/>
+        <FIELD NAME="fullname" TYPE="char" LENGTH="80" NOTNULL="true" SEQUENCE="false" PREVIOUS="wwwroot" NEXT="last_connect_time"/>
+        <FIELD NAME="last_connect_time" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="fullname" NEXT="clientid"/>
+        <FIELD NAME="clientid" TYPE="char" LENGTH="80" NOTNULL="true" SEQUENCE="false" PREVIOUS="last_connect_time" NEXT="public_key"/>
+        <FIELD NAME="public_key" TYPE="text" LENGTH="medium" NOTNULL="true" SEQUENCE="false" PREVIOUS="clientid" NEXT="public_key_validfrom"/>
+        <FIELD NAME="public_key_validfrom" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="public_key" NEXT="public_key_expires"/>
+        <FIELD NAME="public_key_expires" TYPE="int" LENGTH="10" NOTNULL="true" UNSIGNED="true" DEFAULT="0" SEQUENCE="false" PREVIOUS="public_key_validfrom" NEXT="permissions"/>
+        <FIELD NAME="permissions" TYPE="text" LENGTH="big" NOTNULL="true" SEQUENCE="false" PREVIOUS="public_key_expires"/>
+      </FIELDS>
+      <KEYS>
+        <KEY NAME="primary" TYPE="primary" FIELDS="id"/>
+      </KEYS>
+      <INDEXES>
+        <INDEX NAME="clientid_idx" UNIQUE="false" FIELDS="clientid"/>
+      </INDEXES>
+    </TABLE>
+  </TABLES>
+</XMLDB>
